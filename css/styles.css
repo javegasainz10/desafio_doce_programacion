@@ -1,0 +1,79 @@
+* {
+	font-family: 'Advent Pro', sans-serif;
+	color: #0F0F0F;
+	font-size: 1.1rem;
+	word-spacing: .1rem;
+	line-height: 1.2rem;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.text {
+	margin-top: 12%;
+}
+
+main ol {
+	list-style: none;
+	margin: 1%;
+    padding: 1%;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+main ol .discos {
+	margin: 1%;
+	position: relative;
+}
+
+.cds {
+	border-radius: 50%;
+	float: left;
+	margin: 2%;
+	padding-top: 1%;
+	padding-left: 2%;
+}
+
+.fas{
+	color:#FBFBFB;
+}
+
+.discos{
+    margin: auto;
+}
+
+.discos section {
+	border: #A20021 solid 2px;
+	background-color: #0D324D;
+
+	overflow: auto;
+
+	width: 30rem;
+	height: 27rem;
+}
+
+.discos section p {
+	font-weight: bold;
+	color: #FBFBFB;
+
+	padding-top: 50px;
+}
+
+.dropdown-menu {
+	margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+	border: #A20021 solid 2px;
+	background-color: #FBFBFB;
+}
+
+.dropdown-item {
+    list-style: none;
+}
+
+.dropdown-item:hover {
+	width: 90%;
+	background-color: #FBFBFB;
+}
